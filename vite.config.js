@@ -4,7 +4,7 @@ import { semiTheming } from "vite-plugin-semi-theming";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "./",
+    base: '/ai-dashboard/',
     plugins: [
         react(),
         semiTheming({
